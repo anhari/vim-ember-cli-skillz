@@ -71,4 +71,4 @@ endfunction
 
 call s:InitializeVariables()
 call s:DefineCommands()
-call s:DefineKeymaps()
+call s:DefineKeyMaps()
