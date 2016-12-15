@@ -1,7 +1,7 @@
 # vim-ember-cli-skillz
 Vim command wrappers for [ember-cli](https://ember-cli.com/).
 
-### Installation
+## Installation
 
 Using [vim-plug](https://github.com/junegunn/vim-plug):
 
@@ -9,7 +9,7 @@ Using [vim-plug](https://github.com/junegunn/vim-plug):
 Plug 'anhari/vim-ember-cli-skillz'
 ```
 
-### Commands
+## Commands
 
 | vim command                          | shell execution                        |
 | -------------------------------------|:--------------------------------------:|
@@ -21,13 +21,11 @@ Plug 'anhari/vim-ember-cli-skillz'
 | `:EmberGenerateTemplate <argument>`  | `$ ember generate template <argument>` |
 | `:EmberInstallAddon <argument>`      | `$ ember install <argument>`           |
 
-
-### Leader keys
+## Leader keys
 
 Disabled by default.
 
 To enable, add this to your `~/.vimrc`:  `let g:EmberCliSkillzUseMaps = 1`
-
 
 ``` viml
   " leader keys
