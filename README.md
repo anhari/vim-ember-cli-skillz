@@ -13,6 +13,8 @@ Vim command wrappers for [ember-cli](https://ember-cli.com/).
 | `:EmberGenerateTemplate <argument>`  | `$ ember generate template <argument>` |
 | `:EmberInstallAddon <argument>`      | `$ ember install <argument>`           |
 
+---
+
 ### Leader keys
 
 Disabled by default.
