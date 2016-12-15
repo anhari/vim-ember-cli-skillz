@@ -1,6 +1,14 @@
 # vim-ember-cli-skillz
 Vim command wrappers for [ember-cli](https://ember-cli.com/).
 
+### Installation
+
+Using [vim-plug](https://github.com/junegunn/vim-plug):
+
+```
+Plug 'anhari/vim-ember-cli-skillz'
+```
+
 ### Commands
 
 | vim command                          | shell execution                        |
@@ -13,7 +21,6 @@ Vim command wrappers for [ember-cli](https://ember-cli.com/).
 | `:EmberGenerateTemplate <argument>`  | `$ ember generate template <argument>` |
 | `:EmberInstallAddon <argument>`      | `$ ember install <argument>`           |
 
----
 
 ### Leader keys
 
