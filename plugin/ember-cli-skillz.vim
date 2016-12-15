@@ -41,3 +41,13 @@ command! -nargs=* EmberGenerateModel call GenerateModel(<f-args>)
 command! -nargs=* EmberGenerateRoute call GenerateRoute(<f-args>)
 command! -nargs=* EmberGenerateTemplate call GenerateTemplate(<f-args>)
 command! -nargs=* EmberInstallAddon call InstallAddon(<f-args>)
+
+" leader keys
+
+nnoremap <leader>ema :EmberGenerateAdapter<space>
+nnoremap <leader>emc :EmberGenerateComponent<space>
+nnoremap <leader>emh :EmberGenerateHelper<space>
+nnoremap <leader>emm :EmberGenerateModel<space>
+nnoremap <leader>emr :EmberGenerateRoute<space>
+nnoremap <leader>emt :EmberGenerateTemplate<space>
+nnoremap <leader>emi :EmberInstallAddon<space>
