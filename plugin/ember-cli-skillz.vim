@@ -8,6 +8,11 @@ function! GenerateComponent(...)
   redraw!
 endfunction
 
+function! GenerateHelper(...)
+  execute "silent !ember generate helper " . join(a:000, ' ')
+  redraw!
+endfunction
+
 function! GenerateModel(...)
   execute "silent !ember generate model " . join(a:000, ' ')
   redraw!
@@ -31,6 +36,7 @@ endfunction
 
 command! -nargs=* EmberGenerateAdapter call GenerateAdapter(<f-args>)
 command! -nargs=* EmberGenerateComponent call GenerateComponent(<f-args>)
+command! -nargs=* EmberGenerateHelper call GenerateHelper(<f-args>)
 command! -nargs=* EmberGenerateModel call GenerateModel(<f-args>)
 command! -nargs=* EmberGenerateRoute call GenerateRoute(<f-args>)
 command! -nargs=* EmberGenerateTemplate call GenerateTemplate(<f-args>)
