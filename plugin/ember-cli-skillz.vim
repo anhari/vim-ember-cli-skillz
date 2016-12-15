@@ -3,4 +3,4 @@ function! GenerateRoute(...)
   redraw!
 endfunction
 
-command! -nargs=* EmberGenerateRoute call GenerateComponent(<f-args>)
+command! -nargs=* EmberGenerateRoute call GenerateRoute(<f-args>)
