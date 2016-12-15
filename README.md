@@ -3,7 +3,7 @@ Vim command wrappers for ember-cli.
 
 ### Leader keys:
 
-``` vims
+``` viml
   " leader keys
 
   nnoremap <leader>ema :EmberGenerateAdapter<space>
