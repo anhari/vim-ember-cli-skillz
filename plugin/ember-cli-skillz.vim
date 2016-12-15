@@ -8,5 +8,12 @@ function! GenerateTemplate(...)
   redraw!
 endfunction
 
+
+function! InstallAddon(...)
+  execute "silent !ember install " . join(a:000, ' ')
+  redraw!
+endfunction
+
 command! -nargs=* EmberGenerateRoute call GenerateRoute(<f-args>)
 command! -nargs=* EmberGenerateTemplate call GenerateTemplate(<f-args>)
+command! -nargs=* EmberInstallAddon call InstallAddon(<f-args>)
