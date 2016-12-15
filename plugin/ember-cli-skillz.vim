@@ -1,3 +1,8 @@
+function! GenerateAdapter(...)
+  execute "silent !ember generate adapter " . join(a:000, ' ')
+  redraw!
+endfunction
+
 function! GenerateRoute(...)
   execute "silent !ember generate route " . join(a:000, ' ')
   redraw!
@@ -14,6 +19,7 @@ function! InstallAddon(...)
   redraw!
 endfunction
 
+command! -nargs=* EmberGenerateAdapter call GenerateAdapter(<f-args>)
 command! -nargs=* EmberGenerateRoute call GenerateRoute(<f-args>)
 command! -nargs=* EmberGenerateTemplate call GenerateTemplate(<f-args>)
 command! -nargs=* EmberInstallAddon call InstallAddon(<f-args>)
