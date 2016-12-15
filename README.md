@@ -1,5 +1,5 @@
 # vim-ember-cli-skillz
-Vim command wrappers for ember-cli.
+Vim command wrappers for [ember-cli](https://ember-cli.com/).
 
 ### Commands
 
