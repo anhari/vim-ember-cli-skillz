@@ -15,6 +15,11 @@ Vim command wrappers for [ember-cli](https://ember-cli.com/).
 
 ### Leader keys
 
+Disabled by default.
+
+To enable, add this to your `~/.vimrc`:  `let g:EmberCliSkillzUseMaps = 1`
+
+
 ``` viml
   " leader keys
 
