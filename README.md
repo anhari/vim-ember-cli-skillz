@@ -1,6 +1,8 @@
 # vim-ember-cli-skillz
 Vim command wrappers for [ember-cli](https://ember-cli.com/).
 
+**Dropped development in favor of [vim-ember-cli](https://github.com/alexlafroscia/vim-ember-cli). I recommend you use that plugin instead.**
+
 ## Installation
 
 Using [vim-plug](https://github.com/junegunn/vim-plug):
